@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FAQ-accordion</title>
+</head>
+<body>
+    <!-- Background Card -->
+    <div class="background">
+      <div class="card-1">
+        <div class="faqs">
+             
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" fill="none" viewBox="0 0 40 41"><path fill="#AD28EB" d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z"/></svg>
+            <h1>FAQS</h1>
+        </div>
+
+        <!-- Question 1 -->
+            <p class="questions">What inspired you to become a software engineer?
+        <button id="toggleButton1" class="toggle-button" onclick="hiddenShow()">+</button>
+
+        <!--  Answer 1-->
+            <div class="answer ans1">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore eligendi ab placeat, quod consequatur quas, qui tempore vitae ipsa voluptas a odio, aliquam hic ad! Iusto incidunt fugit sapiente reprehenderit.</p>
+            </div>
+            <div class="line"></div>
+
+       <!-- Question 2 -->
+            <p class="questions">What do you do when you're feeling stressed about a project?
+                <button id="toggleButton2" class="toggle-button" onclick="hiddenShow1()">+</button>
+
+        <!--   Answer 2 -->
+            <div class="answer ans2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur quaerat, consequuntur nisi voluptates ea, eos rem illum perferendis vitae cumque tempore, laudantium eius accusamus distinctio? Assumenda itaque ea aspernatur sunt</p>
+            </div>
+            <div class="line"></div>
+
+           <!-- Question 3 -->
+            <p class="questions">Do you prefer working on coding projects alone or with a team? 
+                <button id="toggleButton3" class="toggle-button" onclick="hiddenShow2()">+</button>
+
+ 
+        <!-- Answer 3 -->
+            <div class="answer ans3">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid totam, similique soluta debitis, hic quia exercitationem neque reprehenderit, consectetur dolor repellendus quod error quo nam magnam necessitatibus quae omnis iusto!</p>
+            </div>
+            <div class="line"></div>
+
+          <!-- Questions 4 -->
+            <p class="questions">What does your ideal team look like?
+                <button id="toggleButton4" class="toggle-button" onclick="hiddenShow3()">+</button>
+
+
+            <!-- Answer 4 -->
+            <div class="answer ans4">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates doloribus exercitationem error recusandae. Est cupiditate consequuntur voluptas quam. Esse doloremque voluptates consequuntur aspernatur laudantium soluta eius eligendi, harum officiis optio. </p>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
